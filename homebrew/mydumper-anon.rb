@@ -5,7 +5,7 @@ class MydumperAnon < Formula
   sha256 "30589d82d66ed19e1a4f8ca2217b52363ec2c96c157031c21d893bc066c82b34"
   head "https://github.com/rosmo/mydumper-anon.git"
 
-  conflicts_with "mydumper", :because => "both install `mydumper` and `myloader` binaries"
+  # conflicts_with "mydumper", :because => "both install `mydumper` and `myloader` binaries"
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
